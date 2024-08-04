@@ -9,15 +9,15 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hey there,
+          Leandro Alfaro
         </SectionTitle>
         <SectionText>
-        I'm Leandro Alfaro, also known as lordarcadius. I'm an Android developer from Delhi, India with experience in ROMs, Kernels, & Scripts. Currently, I am working in Primebook as an Android Engineer. I'm passionate about contributing to open-source projects and helping the developer community on Facebook and Telegram.
+        Software Engineer, Technical Leader.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
           window.location.href = '/files/resume.pdf';
-        }}>My Resume</Button>
+        }}>Curriculum</Button>
       </LeftSection>
     </Section>
   </>

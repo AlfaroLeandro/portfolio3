@@ -1,76 +1,84 @@
-import { DiAndroid, DiTerminal, DiJava, DiHtml5 } from "react-icons/di";
-import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
-import { TbBrandKotlin } from "react-icons/tb";
+import { DiHtml5, DiJava, DiReact, DiTerminal } from "react-icons/di";
+import { SiCss3, SiFirebase, SiGit, SiJavascript, SiMicrosoftsqlserver, SiMongodb, SiMysql, SiPostgresql, SiRedis } from "react-icons/si";
 
 export const Skills = [
-  {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>Android Apps, ROMs, & Kernels</>,
-  },
-  {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Cross-platform app development</>,
-  },
-  {
-    slug: "kotlin",
-    Component: TbBrandKotlin,
-    title: "Kotlin",
-    Description: () => <>Android apps and Lambda functions</>,
-  },
-  {
-    slug: "dart",
-    Component: SiDart,
-    title: "Dart",
-    Description: () => <>Flutter apps only</>,
-  },
   {
     slug: "java",
     Component: DiJava,
     title: "Java",
-    Description: () => <>Android apps and Lambda functions</>,
+    Description: () => <>Experto en java</>,
   },
-
+  {
+    slug: "Springboot",
+    Component: DiJava,
+    title: "Java",
+    Description: () => <>Springboot 3</>,
+  },
   {
     slug: "html",
     Component: DiHtml5,
     title: "HTML",
-    Description: () => <>Static webpages and portfolio projects</>,
+    Description: () => <>Maquetado de páginas estáticas</>,
   },
   {
     slug: "css",
     Component: SiCss3,
     title: "CSS",
-    Description: () => <>Styling of my webpages</>,
+    Description: () => <>Dando estilo a páginas web</>,
   },
-
+  {
+    slug: "javascript",
+    Component: SiJavascript,
+    title: "Javascript",
+    Description: () => <>Manejo de scripts</>,
+  },
+  {
+    slug: "React",
+    Component: DiReact,
+    title: "React",
+    Description: () => <>Construyendo SPAs</>,
+  },
   {
     slug: "sql",
     Component: SiMysql,
     title: "MySQL",
-    Description: () => <>Storing client and user data</>,
+    Description: () => <>Persistencia de datos</>,
   },
   {
-    slug: "aws",
-    Component: SiAmazonaws,
-    title: "AWS Lambda",
-    Description: () => <>Lambda functions for creating APIs</>,
+    slug: "PostgreSQL",
+    Component: SiPostgresql,
+    title: "PostgreSQL",
+    Description: () => <>Persistencia de datos</>,
+  },
+  {
+    slug: "SQL Server",
+    Component: SiMicrosoftsqlserver,
+    title: "SQL Server",
+    Description: () => <>Persistencia de datos</>,
+  },
+  {
+    slug: "MongoDB",
+    Component: SiMongodb,
+    title: "MongoDB",
+    Description: () => <>Base de datos documental</>,
+  },
+  {
+    slug: "Redis",
+    Component: SiRedis,
+    title: "Redis",
+    Description: () => <>Cacheo de datos con Springboot con Jedis</>,
   },
   {
     slug: "terminal",
     Component: DiTerminal,
     title: "Bash",
-    Description: () => <>Ease of life and build scripts</>,
+    Description: () => <>Creación de Scripts</>,
   },
   {
     slug: "firebase",
     Component: SiFirebase,
     title: "Firebase",
-    Description: () => <>Authentication, database and analytics</>,
+    Description: () => <>Autenticación, mensajería</>,
   },
   {
     slug: "git",
