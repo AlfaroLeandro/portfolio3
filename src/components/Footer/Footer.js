@@ -12,31 +12,25 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://t.me/lordarcadius">Telegram</LinkItem>
+          <LinkItem href="https://wa.me/1132553928?text=%C2%A1Hola!%20Estoy%20interesado%20en%20tu%20servicio%20como%20desarrollador!">Whatt's App</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:hey@vipuljha.com">
-            hey@vipuljha.com
+          <LinkItem href="mailto:leandro.ezequiel.alfaro.01@gmail.com">
+            leandro.ezequiel.alfaro.01@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Copyright &copy; {year} <Link href="https://www.vipuljha.com">  Vipul Jha</Link>. All rights reserved.</Slogan>
+          <Slogan>Copyright &copy; {year} <Link href="https://www.leandroAlfaro.com">  Leandro Alfaro</Link>. All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/lordarcadius">
+          <SocialIcons href="https://github.com/AlfaroLeandro">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
+          <SocialIcons href="www.linkedin.com/in/leandro-alfaro-547864233">
             <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/lordarcadius">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.twitter.com/lordarcadius">
-            <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
