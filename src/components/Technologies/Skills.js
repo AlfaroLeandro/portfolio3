@@ -1,5 +1,5 @@
 import { DiHtml5, DiJava, DiReact, DiTerminal } from "react-icons/di";
-import { SiCss3, SiFirebase, SiGit, SiJavascript, SiMicrosoftsqlserver, SiMongodb, SiMysql, SiPostgresql, SiRedis } from "react-icons/si";
+import { SiApachekafka, SiCss3, SiDocker, SiFirebase, SiGit, SiGrafana, SiJavascript, SiMicrosoftsqlserver, SiMongodb, SiMysql, SiPostgresql, SiPrometheus, SiRedis } from "react-icons/si";
 
 export const Skills = [
   {
@@ -9,10 +9,10 @@ export const Skills = [
     Description: () => <>Experto en java</>,
   },
   {
-    slug: "Springboot",
+    slug: "Spring",
     Component: DiJava,
-    title: "Java",
-    Description: () => <>Springboot 3</>,
+    title: "Spring",
+    Description: () => <>Spring framework</>,
   },
   {
     slug: "html",
@@ -69,6 +69,31 @@ export const Skills = [
     Description: () => <>Cacheo de datos con Springboot con Jedis</>,
   },
   {
+    slug: "Kafka",
+    Component: SiApachekafka,
+    title: "Kafka",
+    Description: () => <>Arquitectura guiada por eventos</>,
+  },
+  {
+    slug: "Prometheus",
+    Component: SiPrometheus,
+    title: "Prometheus",
+    Description: () => <>Recolección de métricas</>,
+  },
+  {
+    slug: "Grafana",
+    Component: SiGrafana,
+    title: "Grafana",
+    Description: () => <>Visor de métricas</>,
+  },
+  {
+    slug: "Dokcer",
+    Component: SiDocker,
+    title: "Dokcer",
+    Description: () => <>Virtualización</>,
+  },
+  
+  {
     slug: "terminal",
     Component: DiTerminal,
     title: "Bash",
@@ -84,6 +109,6 @@ export const Skills = [
     slug: "git",
     Component: SiGit,
     title: "Git",
-    Description: () => <>Code management and open source contributions</>,
+    Description: () => <>Gestor de versiones</>,
   },
 ];
