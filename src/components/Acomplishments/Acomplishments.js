@@ -11,11 +11,11 @@ const data = [
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Logros personales</SectionTitle>
+    <SectionTitle>Trabajo realizado</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{`${card.number.toLocaleString('es-ES')}`}</BoxNum>
+          <BoxNum>{`${card.number.toLocaleString('es-ES')}+`}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
