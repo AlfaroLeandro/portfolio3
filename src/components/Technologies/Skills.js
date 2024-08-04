@@ -1,5 +1,5 @@
 import { DiHtml5, DiJava, DiReact, DiTerminal } from "react-icons/di";
-import { SiApachekafka, SiCss3, SiDocker, SiFirebase, SiGit, SiGrafana, SiJavascript, SiMicrosoftsqlserver, SiMongodb, SiMysql, SiPostgresql, SiPrometheus, SiRedis } from "react-icons/si";
+import { SiApachekafka, SiCss3, SiDocker, SiFirebase, SiGit, SiGooglemaps, SiGrafana, SiGraphql, SiJavascript, SiLinux, SiMicrosoftsqlserver, SiMongodb, SiMysql, SiPostgresql, SiPrometheus, SiRedis, SiSpring } from "react-icons/si";
 
 export const Skills = [
   {
@@ -10,9 +10,15 @@ export const Skills = [
   },
   {
     slug: "Spring",
-    Component: DiJava,
+    Component: SiSpring,
     title: "Spring",
     Description: () => <>Spring framework</>,
+  },
+  {
+    slug: "GraphQL",
+    Component: SiGraphql,
+    title: "GraphQL",
+    Description: () => <>Construcción de APIs</>,
   },
   {
     slug: "html",
@@ -98,6 +104,12 @@ export const Skills = [
     Component: DiTerminal,
     title: "Bash",
     Description: () => <>Creación de Scripts</>,
+  },
+  {
+    slug: "Linux",
+    Component: SiLinux,
+    title: "Linux",
+    Description: () => <>Ubuntu y Red Hat</>,
   },
   {
     slug: "firebase",

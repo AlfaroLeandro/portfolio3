@@ -6,7 +6,7 @@ import { Skills } from './Skills'
 const Technologies = () => (
   <Section id="skills">
     <SectionDivider divider />
-    <SectionTitle>Skills</SectionTitle>
+    <SectionTitle>Habilidades</SectionTitle>
     <SectionText>
     Tengo experiencia trabajando con una amplia variedad de tecnologías, principalmente enfocadas en Backend y DevOps.
     </SectionText>
